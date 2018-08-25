@@ -22,8 +22,8 @@ public class UserMapperTest {
         try (InputStream is = Resources.getResourceAsStream(resource)) {
             SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(is);
 
-            int count = 0;
-            SqlSession sqlSession = null;
+            int count;
+            SqlSession sqlSession;
             sqlSession = factory.openSession();
 
             count = sqlSession.selectOne("com.cqgcxy.dao.UserMapper.count");
