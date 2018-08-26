@@ -3,14 +3,25 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!-- 设置全局属性 -->
     <properties resource="jdbc.properties">
         <!-- resource属性值的优先级高于property字节点配置的值，如同名则resource覆盖property-->
         <property name="jdbc.password" value="666666"/>
     </properties>
+    <!-- 修改mybatis在运行时的行为方式，比如日志接口 -->
     <settings>
         <setting name="logImpl" value="LOG4J2"/>
     </settings>
+    <!-- POJO全局别名 -->
+    <typeAliases>
+        <!-- 逐个配置 -->
+        <typeAlias type="com.cqgcxy.domain.UserDO" alias="userDO"/>
+        <!-- 扫描指定包下的POJO，自动设置别名 -->
+        <package name="com.cqgcxy.domain"/>
+    </typeAliases>
+    <!-- 环境配置 -->
     <environments default="development">
+        <!-- 开发模式的环境变量 -->
         <environment id="development">
             <transactionManager type="JDBC"></transactionManager>
             <dataSource type="POOLED">
@@ -24,5 +35,6 @@
 
     <mappers>
         <mapper resource="com/cqgcxy/mapper/UserMapper.xml"/>
+        <mapper resource="com/cqgcxy/mapper/DeviceInfoMapper.xml"/>
     </mappers>
 </configuration>

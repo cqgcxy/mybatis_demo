@@ -50,6 +50,10 @@ public class UserMapperTest {
         userList = sqlSession.getMapper(UserMapper.class).findAll();
 
         Assert.assertNotNull(userList);
+        for (UserDO userDO : userList) {
+            logger.debug(userDO.getUserName());
+            logger.debug(userDO.getUserCode());
+        }
         logger.debug("findAll end...");
     }
 }

@@ -9,10 +9,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8a9d2c3-4243-4c7d-9981-3e6070cc62ab" name="Default Changelist" comment="practise two method for execute sql statement. Class.forName vs Mapper Interface.\n other, practise resultMap for diff between pojo and data table.">
+    <list default="true" id="f8a9d2c3-4243-4c7d-9981-3e6070cc62ab" name="Default Changelist" comment="test for properties configuration.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/DeviceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/domain/DeviceInfoDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/DeviceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/cqgcxy/dao/DeviceInfoMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/cqgcxy/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/cqgcxy/dao/UserMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,66 +35,68 @@
     <session id="1323172570">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="93" />
-          <entry key="gitignore" value="6" />
-          <entry key="java" value="2096" />
+          <entry key="gitignore" value="7" />
+          <entry key="java" value="2386" />
           <entry key="properties" value="84" />
           <entry key="sql" value="8" />
-          <entry key="txt" value="215" />
-          <entry key="xml" value="1000" />
+          <entry key="txt" value="253" />
+          <entry key="xml" value="1642" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="6" />
-          <entry key="JAVA" value="2096" />
-          <entry key="PLAIN_TEXT" value="215" />
+          <entry key="Git file" value="7" />
+          <entry key="JAVA" value="2386" />
+          <entry key="PLAIN_TEXT" value="253" />
           <entry key="Properties" value="84" />
-          <entry key="SQL" value="8" />
+          <entry key="SQL" value="11" />
           <entry key="VTL" value="93" />
-          <entry key="XML" value="1000" />
+          <entry key="XML" value="1639" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="17" />
           <entry key="jsp" value="2" />
           <entry key="properties" value="3" />
-          <entry key="sql" value="1" />
+          <entry key="sql" value="2" />
           <entry key="temp" value="7" />
-          <entry key="xml" value="22" />
+          <entry key="tld" value="1" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Git file" value="3" />
+          <entry key="Git file" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="17" />
           <entry key="JSP" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="3" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="22" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -99,13 +107,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/util/MybatisUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/DeviceInfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,8 +118,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="90">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/cqgcxy/dao/DeviceInfoMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -122,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -131,20 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -152,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/cqgcxy/dao/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="198">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -164,6 +166,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -190,8 +194,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/util/MybatisUtil.java" />
         <option value="$PROJECT_DIR$/src/test/com/cqgcxy/dao/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/domain/DeviceInfoDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/DeviceInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/com/cqgcxy/dao/DeviceInfoMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/DeviceInfoMapper.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -239,8 +247,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="60" />
+    <option name="x" value="57" />
+    <option name="y" value="55" />
     <option name="width" value="1303" />
     <option name="height" value="707" />
   </component>
@@ -327,24 +335,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mybatis_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_demo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_demo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -423,7 +420,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -431,7 +428,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535255675209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535264640487" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -445,19 +442,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.cqgcxy.dao" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/cqgcxy/mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/java/com/cqgcxy/service" />
       <recent name="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper" />
       <recent name="$PROJECT_DIR$/src/main/java/com/cqgcxy/manager" />
       <recent name="$PROJECT_DIR$/src/main/java/com/cqgcxy/domain" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/cqgcxy/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -473,6 +470,20 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.UserMapperTest (1)">
+    <configuration name="DeviceInfoMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqgcxy.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqgcxy.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.cqgcxy.dao.DeviceInfoMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserMapperTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_demo" />
       <extension name="coverage">
@@ -506,16 +517,6 @@
       <option name="PACKAGE_NAME" value="com.cqgcxy.dao" />
       <option name="MAIN_CLASS_NAME" value="com.cqgcxy.dao.UserMapperTest" />
       <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserMapperTest" />
-      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -606,18 +607,18 @@
     <list>
       <item itemvalue="Tomcat Server.TomcatServer" />
       <item itemvalue="JUnit.UserMapperTest" />
-      <item itemvalue="JUnit.UserMapperTest.testCount" />
       <item itemvalue="JUnit.UserMapperTest.testFindAll" />
       <item itemvalue="JUnit.UserMapperTest (1)" />
       <item itemvalue="JUnit.UserMapperTest.findAll" />
+      <item itemvalue="JUnit.DeviceInfoMapperTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserMapperTest (1)" />
+        <item itemvalue="JUnit.DeviceInfoMapperTest" />
         <item itemvalue="JUnit.UserMapperTest.findAll" />
         <item itemvalue="JUnit.UserMapperTest.testFindAll" />
         <item itemvalue="JUnit.UserMapperTest" />
-        <item itemvalue="JUnit.UserMapperTest.testCount" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +641,8 @@
       <workItem from="1535166840533" duration="905000" />
       <workItem from="1535169641757" duration="392000" />
       <workItem from="1535243746055" duration="3598000" />
-      <workItem from="1535247508689" duration="7675000" />
+      <workItem from="1535247508689" duration="8890000" />
+      <workItem from="1535261747046" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="update ignore file, fix some syntax warning">
       <created>1535167474065</created>
@@ -656,49 +658,56 @@
       <option name="project" value="LOCAL" />
       <updated>1535254967637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test for properties configuration.">
+      <created>1535255749920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535255749920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserMapperTest_testFindAll - 2018.08.26 at 10h 14m 06s.xml">
-      <configuration name="UserMapperTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testFindAll - 2018.08.26 at 10h 22m 02s.xml">
-      <configuration name="UserMapperTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testFindAll - 2018.08.26 at 10h 24m 00s.xml">
-      <configuration name="UserMapperTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testFindAll - 2018.08.26 at 10h 24m 29s.xml">
-      <configuration name="UserMapperTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_(1) - 2018.08.26 at 11h 15m 57s.xml">
-      <configuration name="UserMapperTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_(1) - 2018.08.26 at 11h 16m 29s.xml">
-      <configuration name="UserMapperTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_(1) - 2018.08.26 at 11h 17m 09s.xml">
-      <configuration name="UserMapperTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_findAll - 2018.08.26 at 11h 19m 35s.xml">
-      <configuration name="UserMapperTest.findAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserMapperTest_(1) - 2018.08.26 at 11h 28m 08s.xml">
       <configuration name="UserMapperTest (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserMapperTest_(1) - 2018.08.26 at 11h 50m 03s.xml">
       <configuration name="UserMapperTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_(1) - 2018.08.26 at 13h 37m 46s.xml">
+      <configuration name="UserMapperTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findAll - 2018.08.26 at 13h 39m 13s.xml">
+      <configuration name="UserMapperTest.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeviceInfoMapperTest - 2018.08.26 at 14h 12m 52s.xml">
+      <configuration name="DeviceInfoMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeviceInfoMapperTest - 2018.08.26 at 14h 14m 17s.xml">
+      <configuration name="DeviceInfoMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeviceInfoMapperTest - 2018.08.26 at 14h 15m 41s.xml">
+      <configuration name="DeviceInfoMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeviceInfoMapperTest - 2018.08.26 at 14h 18m 54s.xml">
+      <configuration name="DeviceInfoMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeviceInfoMapperTest - 2018.08.26 at 14h 19m 16s.xml">
+      <configuration name="DeviceInfoMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_(1) - 2018.08.26 at 14h 20m 40s.xml">
+      <configuration name="UserMapperTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24679000" />
+    <option name="totallyTimeSpent" value="28738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="60" width="1303" height="707" extended-state="0" />
+    <frame x="57" y="55" width="1303" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2854877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28945282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -708,7 +717,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -730,6 +739,39 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28945282" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32952693" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3298969" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -741,7 +783,8 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="update ignore file, fix some syntax warning" />
     <MESSAGE value="practise two method for execute sql statement. Class.forName vs Mapper Interface.\n other, practise resultMap for diff between pojo and data table." />
-    <option name="LAST_COMMIT_MESSAGE" value="practise two method for execute sql statement. Class.forName vs Mapper Interface.\n other, practise resultMap for diff between pojo and data table." />
+    <MESSAGE value="test for properties configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="test for properties configuration." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mybatis_demo.iml">
@@ -764,9 +807,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/controller/git.temp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/git.temp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/git.temp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/manager/git.temp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -774,13 +815,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/git.temp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/service/git.temp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/smbms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,10 +870,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/UserMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/UserMapperTest.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/util/MybatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="76" />
+        <state relative-caret-position="378">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -856,44 +894,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/util/MybatisUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/smbms.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="162">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/DeviceInfoMapper.xml.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/domain/DeviceInfoDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/dao/DeviceInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/com/cqgcxy/dao/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="198">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/cqgcxy/dao/UserMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/cqgcxy/dao/DeviceInfoMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="72">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqgcxy/mapper/DeviceInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="270">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

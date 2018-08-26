@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 名空间不能为空 -->
+<mapper namespace="com.cqgcxy.dao.DeviceInfoMapper">
+    <!-- type设置为deviceInfoDO或DeviceInfoDO都能正确运行 -->
+    <resultMap id="deviceInfo" type="DeviceInfoDO">
+        <result column="device_no" property="deviceNo"/>
+        <result column="out_price" property="outPrice"/>
+        <result column="out_date" property="outDate"/>
+    </resultMap>
+
+    <select id="findByYear" resultMap="deviceInfo">
+        select * from device_info
+        where
+          out_date>='2015-1-1'
+    </select>
+</mapper>
