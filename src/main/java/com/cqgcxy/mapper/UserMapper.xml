@@ -3,7 +3,17 @@
         PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cqgcxy.dao.UserMapper">
+    <resultMap id="userDO" type="com.cqgcxy.domain.UserDO">
+        <!-- POJO属性和数据表的字段不一致时，需要定义ResultMap来单独描述，否则无法自动映射 -->
+        <result column="user_code" property="userCode"/>
+        <result column="user_name" property="userName"/>
+        <result column="user_password" property="userPassword"/>
+    </resultMap>
+
     <select id="count" resultType="int">
             select count(1) as count from smbms_user
+    </select>
+    <select id="findAll" resultMap="userDO">
+        select * from smbms_user
     </select>
 </mapper>
