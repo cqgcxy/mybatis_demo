@@ -1,2 +1,2 @@
 # mybatis demo
-test for fun
+test for merging
