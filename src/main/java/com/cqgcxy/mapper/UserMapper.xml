@@ -17,4 +17,8 @@
     <select id="findAll" resultMap="userDO">
         select * from smbms_user
     </select>
+    <select id="findByUserName" resultMap="userDO" parameterType="java.lang.String">
+        select * from smbms_user
+        where user_name like CONCAT('%',#{userName},'%')
+    </select>
 </mapper>

@@ -42,7 +42,7 @@ public class UserMapperTest {
     }
 
     @Test
-    public void findAll() {
+    public void testFindAll() {
         logger.debug("findAll begin...");
 
         List<UserDO> userList = null;
@@ -55,5 +55,14 @@ public class UserMapperTest {
             logger.debug(userDO.getUserCode());
         }
         logger.debug("findAll end...");
+    }
+
+    @Test
+    public void testFindByUserName() {
+        List<UserDO> userList = sqlSession.getMapper(UserMapper.class).findByUserName("ch");
+        Assert.assertNotNull(userList);
+        for (UserDO userDO : userList) {
+            logger.debug(userDO.toString());
+        }
     }
 }

@@ -14,4 +14,5 @@ public interface UserMapper {
      * @return 用户列表
      */
     List<UserDO> findAll();
+    List<UserDO> findByUserName(String userName);
 }
